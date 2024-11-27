@@ -1,4 +1,3 @@
-// Função para saudação personalizada
 function saudarUsuario() {
     var nome = document.getElementById("nome").value;
     var saudacao = document.getElementById("saudacao");
