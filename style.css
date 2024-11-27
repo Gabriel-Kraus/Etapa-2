@@ -1,0 +1,150 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #24292f; /* Cor de fundo escura (semelhante ao GitHub) */
+    color: #e1e4e8; /* Texto em cinza claro */
+    margin: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #2d333b; /* Tom escuro inspirado no GitHub */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  
+  /* Seção Sobre Mim */
+  #sobre {
+    background-color: #343b42; /* Cor de fundo da seção */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  #sobre h2 {
+    color: #4CAF50; /* Cor de destaque */
+    margin-bottom: 20px;
+  }
+  
+  .perfil {
+    margin-bottom: 20px;
+  }
+  
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  /* Seção Meus Hobbies */
+  #hobbies {
+    background-color: #343b42;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  
+  #hobbies ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #hobbies ul li {
+    margin: 10px 0;
+  }
+  
+  /* Seção Contato */
+  #contato {
+    background-color: #343b42;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  
+  #contato ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contato ul li {
+    margin: 10px 0;
+  }
+  
+  #contato a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  #contato a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seção de Interatividade */
+  #user-info {
+    background-color: #343b42;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  
+  #user-info input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #user-info button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #user-info button:hover {
+    background-color: #45a049;
+  }
+  
+  #user-info p {
+    margin-top: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2d333b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+  }
+  

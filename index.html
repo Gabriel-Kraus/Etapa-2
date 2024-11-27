@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Meu Site Pessoal</h1>
+      <h2>Bem-vindo à minha página de apresentação</h2>
+    </div>
+  </header>
+
+  <!-- Container principal -->
+  <div class="container">
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+      <div class="perfil">
+        <!-- Foto de perfil (substitua a URL pelo caminho da sua foto) -->
+        <img src="https://via.placeholder.com/150" alt="Minha Foto" class="foto-perfil">
+      </div>
+      <h2>Sobre Mim</h2>
+      <p>Olá! Meu nome é João e sou apaixonado por tecnologia e design. Sou estudante de Ciências da Computação e gosto de aprender novas ferramentas e linguagens de programação. Além disso, adoro compartilhar meus conhecimentos com outras pessoas.</p>
+    </section>
+
+    <!-- Seção Meus Hobbies -->
+    <section id="hobbies">
+      <h2>Meus Hobbies</h2>
+      <ul>
+        <li>Criar sites e aplicativos</li>
+        <li>Jogar videogames</li>
+        <li>Ler livros de ficção científica</li>
+      </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Você pode entrar em contato comigo através do meu e-mail ou redes sociais:</p>
+      <ul>
+        <li><a href="mailto:joao@example.com">joao@example.com</a></li>
+        <li><a href="https://www.linkedin.com/in/joao" target="_blank">LinkedIn</a></li>
+        <li><a href="https://twitter.com/joao" target="_blank">Twitter</a></li>
+      </ul>
+    </section>
+
+    <!-- Seção de Interatividade (JavaScript) -->
+    <section id="user-info">
+      <h2>Interaja Conosco!</h2>
+      <p>Digite seu nome para uma saudação personalizada:</p>
+      <input type="text" id="nome" placeholder="Digite seu nome">
+      <button onclick="saudarUsuario()">Saudar</button>
+      <p id="saudacao"></p>
+    </section>
+
+  </div> <!-- Fim do container principal -->
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 João - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
